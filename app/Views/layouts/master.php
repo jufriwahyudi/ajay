@@ -57,18 +57,7 @@
                     <div class="navbar-nav ms-auto py-0">
                         <a href="<?= base_url('/') ?>" class="nav-item nav-link active">Home</a>
                         <a href="<?= base_url('listdata') ?>" class="nav-item nav-link">List Data</a>
-                        <a href="#" class="nav-item nav-link">About</a>
-                        <a href="#" class="nav-item nav-link">Service</a>
-                        <a href="#" class="nav-item nav-link">Project</a>
-                        <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
-                            <div class="dropdown-menu m-0">
-                                <a href="#" class="dropdown-item">Our Team</a>
-                                <a href="#" class="dropdown-item">Testimonial</a>
-                                <a href="#" class="dropdown-item">404 Page</a>
-                            </div>
-                        </div>
-                        <a href="#" class="nav-item nav-link">Contact</a>
+                        <a href="<?= base_url('scrapping') ?>" class="nav-item nav-link">Scrapping</a>
                     </div>
                     <butaton type="button" class="btn text-secondary ms-3" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fa fa-search"></i></butaton>
                     <a href="https://htmlcodex.com/startup-company-website-template" class="btn btn-secondary text-light rounded-pill py-2 px-4 ms-3">Pro Version</a>
